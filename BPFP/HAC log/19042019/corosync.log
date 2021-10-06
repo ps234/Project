@@ -1,0 +1,850 @@
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 20:21:43 [11512] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 20:21:43 [11512] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 20:21:43 [11512] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 20:21:43 [11512] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 20:21:43 [11512] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 20:21:43 [11512] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 20:21:43 [11512] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 20:21:43 [11512] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Mar 27 20:21:43 [11512] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: quorum.device.votes is too high or expected_votes is too low'
+Mar 27 20:21:43 [11512] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Mar 27 20:23:38 [11805] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 20:23:38 [11805] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 20:23:38 [11805] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 20:23:38 [11805] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 20:23:38 [11805] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 20:23:38 [11805] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 20:23:39 [11805] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 20:23:39 [11805] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 20:23:39 [11805] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 20:23:39 [11805] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 20:23:39 [11805] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Mar 27 20:23:39 [11805] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: quorum.device.votes is too high or expected_votes is too low'
+Mar 27 20:23:39 [11805] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 20:28:17 [12104] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 20:28:17 [12104] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 20:28:17 [12104] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 20:28:17 [12104] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 20:28:17 [12104] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 20:28:17 [12104] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 20:28:17 [12104] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 20:28:17 [12104] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Mar 27 20:28:17 [12104] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: quorum.device.votes is too high or expected_votes is too low'
+Mar 27 20:28:17 [12104] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 22:31:01 [14006] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 22:31:01 [14006] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 22:31:01 [14006] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 22:31:01 [14006] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 22:31:01 [14006] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 22:31:01 [14006] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 22:31:01 [14006] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 22:31:01 [14006] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Mar 27 22:31:01 [14006] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: quorum.device.votes is too high or expected_votes is too low'
+Mar 27 22:31:01 [14006] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 22:34:15 [14285] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 22:34:15 [14285] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 22:34:15 [14285] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 22:34:15 [14285] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 22:34:15 [14285] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 22:34:15 [14285] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 22:34:15 [14285] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 22:34:15 [14285] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Mar 27 22:34:15 [14285] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: two_node and quorum device cannot be configured at the same time!'
+Mar 27 22:34:15 [14285] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 22:38:52 [14605] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 22:38:52 [14605] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] server name: votequorum
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] server name: quorum
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:4) was formed. Members joined: 771304931
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:38:52 [14605] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Mar 27 22:38:52 [14605] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Mar 27 22:38:52 [14605] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Mar 27 22:52:18 [14882] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Mar 27 22:52:18 [14882] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Mar 27 22:52:18 [14882] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Mar 27 22:52:18 [14882] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Mar 27 22:52:18 [14882] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Mar 27 22:52:18 [14882] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Mar 27 22:52:19 [14882] vmi243500 corosync info    [QB    ] server name: cmap
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Mar 27 22:52:19 [14882] vmi243500 corosync info    [QB    ] server name: cfg
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Mar 27 22:52:19 [14882] vmi243500 corosync info    [QB    ] server name: cpg
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Mar 27 22:52:19 [14882] vmi243500 corosync info    [QB    ] server name: votequorum
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Mar 27 22:52:19 [14882] vmi243500 corosync info    [QB    ] server name: quorum
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:8) was formed. Members joined: 771304931
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:52:19 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Mar 27 22:52:19 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Mar 27 23:19:52 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:12) was formed. Members joined: 96317541
+Mar 27 23:19:52 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 27 23:19:52 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 27 23:19:52 [14882] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Mar 27 23:19:52 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Mar 27 23:19:52 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Mar 31 04:50:04 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 6225.2314 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Mar 31 04:50:04 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Mar 31 04:50:04 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:16) was formed. Members
+Mar 31 04:50:04 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 04:50:04 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 04:50:04 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Mar 31 04:50:04 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Mar 31 06:00:08 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4163.4849 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Mar 31 06:10:09 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Mar 31 06:10:09 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:20) was formed. Members
+Mar 31 06:10:09 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 06:10:09 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 06:10:09 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Mar 31 06:10:09 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Mar 31 06:25:06 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 5030.9624 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Mar 31 06:27:01 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 9175.3799 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Mar 31 06:27:01 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Mar 31 06:27:03 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:24) was formed. Members
+Mar 31 06:27:06 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 06:27:06 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Mar 31 06:27:06 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Mar 31 06:27:06 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:08:42 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:08:42 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:28) was formed. Members
+Apr 03 06:08:42 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:08:42 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:08:42 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:08:42 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:13:10 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:13:14 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:32) was formed. Members
+Apr 03 06:13:14 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:13:14 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:13:14 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:13:14 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:14:50 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 5068.7163 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 03 06:14:50 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:14:50 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:36) was formed. Members
+Apr 03 06:14:50 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:14:50 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:14:54 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4243.8564 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 03 06:14:54 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:14:54 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:15:15 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4427.0181 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 03 06:15:22 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4167.8047 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 03 06:16:11 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:16:15 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:40) was formed. Members
+Apr 03 06:16:15 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:16:15 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:16:15 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:16:15 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:16:25 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:16:26 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:44) was formed. Members
+Apr 03 06:16:26 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:16:26 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:16:26 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:16:26 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:20:04 [14882] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 03 06:20:10 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:48) was formed. Members
+Apr 03 06:20:10 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:20:11 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:20:11 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:20:11 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:20:18 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4277.1064 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 03 06:20:18 [14882] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:52) was formed. Members
+Apr 03 06:20:18 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:20:18 [14882] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 03 06:20:19 [14882] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 03 06:20:19 [14882] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 03 06:21:56 [14882] vmi243500 corosync warning [MAIN  ] Corosync main process was not scheduled for 4206.7915 ms (threshold is 4000.0000 ms). Consider token timeout increase.
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 04 23:43:37 [14882] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 04 23:43:37 [14882] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 04 23:43:37 [14882] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 04 23:43:37 [14882] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 04 23:43:37 [14882] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 04 23:43:37 [14882] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 04 23:43:39 [20841] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 04 23:43:39 [20841] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 04 23:43:39 [20841] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:56) was formed. Members joined: 771304931
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:60) was formed. Members joined: 96317541
+Apr 04 23:43:39 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:43:39 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:43:39 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 04 23:43:39 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 04 23:44:28 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:64) was formed. Members left: 96317541
+Apr 04 23:44:28 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 04 23:44:28 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 04 23:44:28 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 04 23:44:29 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:68) was formed. Members joined: 96317541
+Apr 04 23:44:29 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:44:29 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:44:29 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 04 23:44:29 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 04 23:44:29 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 00:21:56 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:72) was formed. Members left: 96317541
+Apr 05 00:21:56 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 00:21:56 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 00:21:56 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 08:39:38 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:76) was formed. Members joined: 96317541
+Apr 05 08:39:38 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 08:39:38 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 08:39:38 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 08:39:38 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 08:39:38 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 09:09:20 [20841] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 05 09:09:26 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:80) was formed. Members left: 96317541
+Apr 05 09:09:26 [20841] vmi243500 corosync notice  [TOTEM ] Failed to receive the leave message. failed: 96317541
+Apr 05 09:09:26 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 09:09:26 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 09:09:26 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 09:09:58 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:104) was formed. Members joined: 96317541
+Apr 05 09:09:58 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 09:09:58 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 09:09:58 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 09:09:58 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 11:03:43 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:108) was formed. Members left: 96317541
+Apr 05 11:03:43 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 11:03:43 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 11:03:43 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 11:04:14 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:112) was formed. Members joined: 96317541
+Apr 05 11:04:14 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 11:04:14 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 11:04:14 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 11:04:14 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 11:10:23 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:116) was formed. Members left: 96317541
+Apr 05 11:10:23 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 11:10:23 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 11:10:23 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 11:17:11 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:120) was formed. Members joined: 96317541
+Apr 05 11:17:11 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 11:17:11 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 11:17:11 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 11:17:11 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 11:17:11 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 12:05:21 [20841] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 05 12:05:27 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:124) was formed. Members left: 96317541
+Apr 05 12:05:27 [20841] vmi243500 corosync notice  [TOTEM ] Failed to receive the leave message. failed: 96317541
+Apr 05 12:05:27 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 12:05:27 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 12:05:27 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 12:17:16 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:128) was formed. Members joined: 96317541
+Apr 05 12:17:16 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 12:17:16 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 12:17:16 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 12:17:16 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 12:28:07 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:132) was formed. Members left: 96317541
+Apr 05 12:28:07 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 05 12:28:07 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 05 12:28:07 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 05 12:28:42 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:136) was formed. Members joined: 96317541
+Apr 05 12:28:42 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 12:28:42 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 05 12:28:42 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 05 12:28:42 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 06 02:15:11 [20841] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 06 02:15:17 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:140) was formed. Members left: 96317541
+Apr 06 02:15:17 [20841] vmi243500 corosync notice  [TOTEM ] Failed to receive the leave message. failed: 96317541
+Apr 06 02:15:17 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 06 02:15:17 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 06 02:15:17 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 06 02:28:41 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:144) was formed. Members joined: 96317541
+Apr 06 02:28:41 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 02:28:41 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 02:28:41 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 02:28:41 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 06 02:28:41 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 06 03:47:36 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:148) was formed. Members left: 96317541
+Apr 06 03:47:36 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 06 03:47:36 [20841] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 06 03:47:36 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 06 03:47:38 [20841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:152) was formed. Members joined: 96317541
+Apr 06 03:47:38 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 03:47:38 [20841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 03:47:38 [20841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 06 03:47:38 [20841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 06 14:22:14 [20841] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 06 14:22:14 [20841] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 06 14:22:14 [20841] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 06 14:22:14 [20841] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 06 14:22:14 [20841] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 06 14:22:14 [20841] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 06 14:22:21 [16634] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 06 14:22:21 [16634] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 06 14:22:21 [16634] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:156) was formed. Members joined: 771304931
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:160) was formed. Members joined: 96317541
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 06 14:22:21 [16634] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 14:22:21 [16634] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 06 14:22:21 [16634] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 01:12:33 [16634] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:164) was formed. Members left: 96317541
+Apr 07 01:12:33 [16634] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 07 01:12:33 [16634] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 07 01:12:33 [16634] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 01:12:34 [16634] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:168) was formed. Members joined: 96317541
+Apr 07 01:12:34 [16634] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 01:12:34 [16634] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 01:12:34 [16634] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 07 01:12:34 [16634] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 07 01:37:51 [1438] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 07 01:37:51 [1438] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 07 01:37:51 [1438] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:172) was formed. Members joined: 771304931
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:176) was formed. Members joined: 96317541
+Apr 07 01:37:51 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 01:37:51 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 01:37:51 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 07 01:37:51 [1438] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 02:01:41 [1438] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:180) was formed. Members left: 96317541
+Apr 07 02:01:41 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 07 02:01:41 [1438] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 07 02:01:41 [1438] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 02:13:48 [1438] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:184) was formed. Members joined: 96317541
+Apr 07 02:13:48 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 02:13:48 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 02:13:48 [1438] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 02:13:48 [1438] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 07 02:13:48 [1438] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 07 02:35:13 [1427] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 07 02:35:13 [1427] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 07 02:35:13 [1427] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:188) was formed. Members joined: 771304931
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 02:35:13 [1427] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 07 02:35:13 [1427] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 07 03:45:44 [1427] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 07 03:45:44 [1427] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 07 03:45:44 [1427] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 07 03:45:44 [1427] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 07 03:45:44 [1427] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 07 03:45:44 [1427] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 07 03:46:16 [1361] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 07 03:46:16 [1361] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 07 03:46:16 [1361] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 07 03:46:16 [1361] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 07 03:46:16 [1361] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 07 03:46:16 [1361] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 07 03:46:17 [1361] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 07 03:46:17 [1361] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 07 03:46:17 [1361] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 07 03:46:17 [1361] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 07 03:46:17 [1361] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:192) was formed. Members joined: 771304931
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 03:46:17 [1361] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 07 03:46:17 [1361] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 07 04:08:42 [1361] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:196) was formed. Members joined: 96317541
+Apr 07 04:08:42 [1361] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 04:08:42 [1361] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 04:08:42 [1361] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 07 04:08:42 [1361] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 07 04:08:42 [1361] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 07 04:08:42 [1361] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 08 00:40:55 [1361] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 08 00:40:55 [1361] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 08 00:40:55 [1361] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 08 00:40:55 [1361] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 08 00:40:55 [1361] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 08 00:40:55 [1361] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 08 00:40:57 [10431] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 08 00:40:57 [10431] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 08 00:40:57 [10431] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:200) was formed. Members joined: 771304931
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:204) was formed. Members joined: 96317541
+Apr 08 00:40:57 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 00:40:57 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 08 00:40:57 [10431] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 03:16:37 [10431] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:208) was formed. Members left: 96317541
+Apr 08 03:16:37 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 08 03:16:37 [10431] vmi243500 corosync notice  [QUORUM] This node is within the non-primary component and will NOT provide any services.
+Apr 08 03:16:37 [10431] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 08 03:16:37 [10431] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 03:16:39 [10431] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:212) was formed. Members joined: 96317541
+Apr 08 03:16:39 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:39 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:39 [10431] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:39 [10431] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 08 03:16:39 [10431] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 08 03:16:39 [10431] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 08 03:16:43 [10431] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 08 03:16:43 [10431] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 08 03:16:43 [10431] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 08 03:16:43 [10431] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 08 03:16:43 [10431] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 08 03:16:43 [10431] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 08 03:16:44 [19415] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 08 03:16:44 [19415] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 08 03:16:44 [19415] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 08 03:16:44 [19415] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 08 03:16:45 [19415] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 08 03:16:45 [19415] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 08 03:16:45 [19415] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 08 03:16:45 [19415] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 08 03:16:45 [19415] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:216) was formed. Members joined: 771304931
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:220) was formed. Members joined: 96317541
+Apr 08 03:16:45 [19415] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:45 [19415] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:45 [19415] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 08 03:16:45 [19415] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 08 03:44:38 [19415] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 08 03:44:38 [19415] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 08 03:44:38 [19415] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 08 03:44:38 [19415] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 08 03:44:38 [19415] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 08 03:44:38 [19415] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 08 03:44:45 [17841] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 08 03:44:45 [17841] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 08 03:44:45 [17841] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 08 03:44:45 [17841] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 08 03:44:45 [17841] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 08 03:44:45 [17841] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 08 03:44:46 [17841] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 08 03:44:46 [17841] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 08 03:44:46 [17841] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 08 03:44:46 [17841] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 08 03:44:46 [17841] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:224) was formed. Members joined: 771304931
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:228) was formed. Members joined: 96317541
+Apr 08 03:44:46 [17841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:44:46 [17841] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 08 03:44:46 [17841] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Apr 08 09:09:39 [1553] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 08 09:09:39 [1553] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 08 09:09:39 [1553] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 08 09:09:39 [1553] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 08 09:09:39 [1553] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 08 09:09:39 [1553] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 08 09:09:40 [1553] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 08 09:09:40 [1553] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 08 09:09:40 [1553] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 08 09:09:40 [1553] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 08 09:09:40 [1553] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:232) was formed. Members joined: 771304931
+Apr 08 09:09:40 [1553] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:236) was formed. Members joined: 96317541
+Apr 08 09:09:40 [1553] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 09:09:40 [1553] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 08 09:09:40 [1553] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Apr 09 21:25:13 [1543] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 09 21:25:13 [1543] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 09 21:25:13 [1543] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 09 21:25:13 [1543] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:240) was formed. Members joined: 771304931
+Apr 09 21:25:13 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:244) was formed. Members joined: 96317541
+Apr 09 21:25:13 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 21:25:13 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 09 21:25:13 [1543] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 21:25:38 [1543] vmi243500 corosync notice  [TOTEM ] A processor failed, forming new configuration.
+Apr 09 21:25:44 [1543] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:248) was formed. Members left: 96317541
+Apr 09 21:25:44 [1543] vmi243500 corosync notice  [TOTEM ] Failed to receive the leave message. failed: 96317541
+Apr 09 21:25:44 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 09 21:25:44 [1543] vmi243500 corosync notice  [QUORUM] This node is within the non-primary component and will NOT provide any services.
+Apr 09 21:25:44 [1543] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 09 21:25:44 [1543] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 21:26:06 [1543] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:252) was formed. Members joined: 96317541
+Apr 09 21:26:06 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 21:26:06 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 21:26:06 [1543] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 09 21:26:06 [1543] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 09 21:26:06 [1543] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 21:27:34 [1543] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:256) was formed. Members left: 96317541
+Apr 09 21:27:34 [1543] vmi243500 corosync warning [CPG   ] downlist left_list: 1 received
+Apr 09 21:27:34 [1543] vmi243500 corosync notice  [QUORUM] This node is within the non-primary component and will NOT provide any services.
+Apr 09 21:27:34 [1543] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 09 21:27:34 [1543] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [MAIN  ] Node was shut down by a signal
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Unloading all Corosync service engines.
+Apr 09 23:29:38 [1543] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync vote quorum service v1.0
+Apr 09 23:29:38 [1543] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration map access
+Apr 09 23:29:38 [1543] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync configuration service
+Apr 09 23:29:38 [1543] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster closed process group service v1.01
+Apr 09 23:29:38 [1543] vmi243500 corosync info    [QB    ] withdrawing server sockets
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync cluster quorum service v0.1
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [SERV  ] Service engine unloaded: corosync profile loading service
+Apr 09 23:29:38 [1543] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine exiting normally
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 09 23:30:08 [13682] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 09 23:30:08 [13682] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 09 23:30:08 [13682] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 09 23:30:08 [13682] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 09 23:30:08 [13682] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 09 23:30:08 [13682] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 09 23:30:08 [13682] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 09 23:30:08 [13682] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Apr 09 23:30:08 [13682] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: two_node and quorum device cannot be configured at the same time!'
+Apr 09 23:30:08 [13682] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Apr 09 23:31:26 [16349] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 09 23:31:26 [16349] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 09 23:31:26 [16349] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 09 23:31:26 [16349] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 09 23:31:26 [16349] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 09 23:31:26 [16349] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 09 23:31:27 [16349] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 09 23:31:27 [16349] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 09 23:31:27 [16349] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 09 23:31:27 [16349] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 09 23:31:27 [16349] vmi243500 corosync crit    [QUORUM] Quorum provider: corosync_votequorum failed to initialize.
+Apr 09 23:31:27 [16349] vmi243500 corosync error   [SERV  ] Service engine 'corosync_quorum' failed to load for reason 'configuration error: two_node and quorum device cannot be configured at the same time!'
+Apr 09 23:31:27 [16349] vmi243500 corosync error   [MAIN  ] Corosync Cluster Engine exiting with status 20 at service.c:356.
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [MAIN  ] Corosync Cluster Engine ('2.4.4'): started and ready to provide service.
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [MAIN  ] Corosync built-in features: testagents systemd qdevices qnetd pie relro bindnow
+Apr 09 23:41:51 [1688] vmi243500 corosync warning [MAIN  ] interface section bindnetaddr is used together with nodelist. Nodelist one is going to be used.
+Apr 09 23:41:51 [1688] vmi243500 corosync warning [MAIN  ] Please migrate config file to nodelist.
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] Initializing transport (UDP/IP Unicast).
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] Initializing transmit/receive security (NSS) crypto: none hash: none
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] The network interface [173.249.45.227] is now up.
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration map access [0]
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [QB    ] server name: cmap
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync configuration service [1]
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [QB    ] server name: cfg
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster closed process group service v1.01 [2]
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [QB    ] server name: cpg
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync profile loading service [4]
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [QUORUM] Using quorum provider corosync_votequorum
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync vote quorum service v1.0 [5]
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [QB    ] server name: votequorum
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [SERV  ] Service engine loaded: corosync cluster quorum service v0.1 [3]
+Apr 09 23:41:51 [1688] vmi243500 corosync info    [QB    ] server name: quorum
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {173.249.45.227}
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] adding new UDPU member {5.189.176.101}
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [TOTEM ] A new membership (173.249.45.227:260) was formed. Members joined: 771304931
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 09 23:41:51 [1688] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [VOTEQ ] Waiting for all cluster members. Current votes: 1 expected_votes: 2
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [QUORUM] Members[1]: 771304931
+Apr 09 23:41:51 [1688] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
+Apr 09 23:42:02 [1688] vmi243500 corosync notice  [TOTEM ] A new membership (5.189.176.101:264) was formed. Members joined: 96317541
+Apr 09 23:42:02 [1688] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 23:42:02 [1688] vmi243500 corosync warning [CPG   ] downlist left_list: 0 received
+Apr 09 23:42:02 [1688] vmi243500 corosync notice  [QUORUM] This node is within the primary component and will provide service.
+Apr 09 23:42:02 [1688] vmi243500 corosync notice  [QUORUM] Members[2]: 96317541 771304931
+Apr 09 23:42:02 [1688] vmi243500 corosync notice  [MAIN  ] Completed service synchronization, ready to provide service.
