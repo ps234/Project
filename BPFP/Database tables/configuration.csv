@@ -1,0 +1,19 @@
+"resource_id";"resource_name";"HAC_resource_name";"group_group_id";"cluster_cluster_id";"node_node_id";"resource_type_resource_type";"reinitialization_factor";"redundancy_factor";"dependency_type";"critical_factor";"dependency_level";"dependency_depth";"dependency_levels_up";"dependency_levels_down"
+"C1G1A1B1";"message and lock service";"rsc_DEV_ASCS00";"C1G1A1";"cluster1";1;"service";1;1;1;1;2;3;1;1
+"C1G1A1B1C1";"FS message and lock ";"fs_DEV_ASCS";"C1G1A1";"cluster1";1;"file system";1;0;1;1;3;3;2;0
+"C1G1A1B1C2";"FS trans";"fs_2_DEV_ASCS";"C1G1A1";"cluster1";1;"file system";1;0;1;0;3;3;2;0
+"C1G1A1B1C3";"FS interface";"fs_3_DEV_ASCS";"C1G1A1";"cluster1";1;"file system";1;0;1;0;3;3;2;0
+"C1G1A1B1C4";"VIP";"vip_DEV_ASCS";"C1G1A1";"cluster1";1;"VIP";1;0;1;1;3;3;2;0
+"C1G2A1B1";"database";"rsc_DEV_database";"C1G2A1";"cluster1";1;"service";1;0;1;1;2;3;1;1
+"C1G2A1B1C1";"FS database";"fs_DEV_database";"C1G2A1";"cluster1";1;"file system";1;0;1;1;3;3;2;0
+"C1G2A1B1C2";"VIP";"vip_DEV_database";"C1G2A1";"cluster1";1;"VIP";1;0;1;1;3;3;2;0
+"C1G3A1B1";"main instance";"rsc_DEV_CI";"C1G3A1";"cluster1";1;"service";1;0;1;1;2;3;1;1
+"C1G3A1B1C1";"FS main instance";"fs_DEV_CI";"C1G3A1";"cluster1";1;"file system";1;0;1;1;3;3;2;0
+"C1G3A1B1C2";"VIP";"vip_DEV_CI";"C1G3A1";"cluster1";1;"VIP";1;0;1;1;3;3;2;0
+"C1G4A1B1";"backup lock server service";"rsc_DEV_ERS10";"C1G4A1";"cluster1";1;"service";1;0;1;0;2;3;1;1
+"C1G4A1B1C1";"VIP";"vip_DEV_ERS";"C1G4A1";"cluster1";1;"VIP";1;0;1;0;3;3;2;0
+"C1G5A1B1";"DLM";"dlm_DEV";"C1G5A1";"cluster1";1;"DLM";2;0;2;1;2;2;1;0
+"C1G5A1B2";"FS DLM";" fs_DEV_sapmnt";"C1G5A1";"cluster1";1;"file system";1;0;2;1;2;2;1;0
+"C1GD1";"CPU monitor";" global_rsc_DEV_CPU";"C1";"cluster1";1;"monitor";1;0;3;0;1;1;0;0
+"C1GD2";"NIC monitor";"global_rsc_DEV_NIC";"C1";"cluster1";1;"monitor";1;0;3;0;1;1;0;0
+"C1GD3";"SBD ";"stonith-sbd";"C1";"cluster1";1;"SBD";2;0;3;1;1;1;0;0
