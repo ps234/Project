@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="C4">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="C3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="C2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>C4 C3</parents>
+			<probabilities>0.99 0.01 0.96 0.04 0.96 0.04 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="B4">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="B3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="B2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>B4 B3</parents>
+			<probabilities>0.99 0.01 0.96 0.04 0.96 0.04 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="B1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>B2</parents>
+			<probabilities>0.99 0.01 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A4">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A6">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A5">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>A4 A6 A5 A3</parents>
+			<probabilities>0.99 0.01 0.96 0.04 0.95 0.05 0.9399999999999999 0.06 0.96 0.04 0.9 0.1 0.95 0.05 0.9399999999999999 0.06 0.85 0.15 0.05 0.95 0.86 0.14 0.03 0.97 0.85 0.15 0.03 0.97 0.75 0.25 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="A1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>A2</parents>
+			<probabilities>0.99 0.01 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="G1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="D3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="D2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>D3</parents>
+			<probabilities>0.99 0.01 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="G2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="G3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="E3">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="E2">
+			<state id="failure" />
+			<state id="no_failure" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="E1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>E3 E2</parents>
+			<probabilities>0.99 0.01 0.04 0.96 0.96 0.04 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="C1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>C2</parents>
+			<probabilities>0.99 0.01 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="D1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>D2</parents>
+			<probabilities>0.99 0.01 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="X1" ranked="true">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>B1 A1 G1 G2 G3 E1 C1 D1</parents>
+			<probabilities>0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.4 0.6 0.3 0.7 0.3 0.7 0.25 0.75 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.95 0.05 0.95 0.05 0.95 0.05 0.96 0.04 0.96 0.04 0.96 0.04 0.95 0.05 0.3 0.7 0.25 0.75 0.2 0.8 0.15 0.85 0.99 0.01 0.99 0.01 0.98 0.02 0.98 0.02 0.96 0.04 0.96 0.04 0.95 0.05 0.9399999999999999 0.06 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.3 0.7 0.29 0.71 0.25 0.75 0.2 0.8 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.7 0.3 0.25 0.75 0.2 0.8 0.15 0.85 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.25 0.75 0.25 0.75 0.25 0.75 0.2 0.8 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.2 0.8 0.15 0.85 0.15 0.85 0.1 0.9 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.3 0.7 0.2 0.8 0.15 0.85 0.1 0.9 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.2 0.8 0.1 0.9 0.1 0.9 0.1 0.9 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.95 0.05 0.9399999999999999 0.06 0.96 0.04 0.95 0.05 0.96 0.04 0.95 0.05 0.2 0.8 0.18 0.82 0.15 0.85 0.1 0.9 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.96 0.04 0.9399999999999999 0.06 0.25 0.75 0.24 0.76 0.25 0.75 0.2 0.8 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.95 0.05 0.9399999999999999 0.06 0.96 0.04 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.19 0.8100000000000001 0.18 0.82 0.18 0.82 0.16 0.84 0.99 0.01 0.99 0.01 0.99 0.01 0.98 0.02 0.95 0.05 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.95 0.05 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.11 0.89 0.1 0.9 0.1 0.9 0.08 0.92 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.95 0.05 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.95 0.05 0.9399999999999999 0.06 0.95 0.05 0.93 0.07000000000000001 0.12 0.88 0.11 0.89 0.06 0.9399999999999999 0.05 0.95 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.95 0.05 0.95 0.05 0.95 0.05 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.1 0.9 0.1 0.9 0.1 0.9 0.02 0.98 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.96 0.04 0.96 0.04 0.96 0.04 0.9399999999999999 0.06 0.95 0.05 0.95 0.05 0.95 0.05 0.9399999999999999 0.06 0.08 0.92 0.07000000000000001 0.93 0.06 0.9399999999999999 0.02 0.98 0.99 0.01 0.99 0.01 0.99 0.01 0.99 0.01 0.95 0.05 0.9399999999999999 0.06 0.9399999999999999 0.06 0.93 0.07000000000000001 0.9 0.1 0.9 0.1 0.9 0.1 0.89 0.11 0.03 0.97 0.02 0.98 0.02 0.98 0.01 0.99</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6128.0 ACADEMIC" name="BN-2">
+			<node id="X1">
+				<name>ERP application</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>719 597 806 652</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="G1">
+				<name>CPU monitor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1339 335 1425 379</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="G2">
+				<name>NIC monitor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1476 333 1554 382</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="G3">
+				<name>SBD</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1609 334 1690 376</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A1">
+				<name>Message and lock instance group</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>342 331 436 386</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A2">
+				<name>Message and lock service</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>341 199 437 259</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A4">
+				<name>FS message and lock instance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>210 99 295 148</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A6">
+				<name>FS interface</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>490 106 570 156</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A5">
+				<name>FS  trans</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>351 106 431 156</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A3">
+				<name>VIP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>50 98 137 142</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B1">
+				<name>Database group</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>698 321 799 383</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B2">
+				<name>Database service</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>696 206 802 267</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B4">
+				<name>FS database</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>776 111 866 158</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B3">
+				<name>VIP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>641 111 724 156</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="D2">
+				<name>Backup lock server service</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1057 210 1138 262</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="D3">
+				<name>VIP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1227 106 1300 158</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="E1">
+				<name>DLM group</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1202 335 1292 388</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="E3">
+				<name>FS DLM</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1547 106 1626 155</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="E2">
+				<name>DLM</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1382 111 1467 153</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C2">
+				<name>Main instance service</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>901 208 990 263</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C4">
+				<name>FS main instance</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1053 112 1138 160</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C3">
+				<name>VIP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>907 107 1005 162</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C1">
+				<name>Main instance group</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>890 327 996 393</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="D1">
+				<name>Backup lock server group</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1051 328 1149 394</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
