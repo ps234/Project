@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="A5">
+			<state id="true" />
+			<state id="false" />
+			<probabilities>0.75 0.25</probabilities>
+		</cpt>
+		<cpt id="A4">
+			<state id="low" />
+			<state id="high" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="A3">
+			<state id="true" />
+			<state id="false" />
+			<probabilities>0.3 0.7</probabilities>
+		</cpt>
+		<cpt id="A2">
+			<state id="low" />
+			<state id="high" />
+			<probabilities>0.75 0.25</probabilities>
+		</cpt>
+		<decision id="D1">
+			<state id="online" />
+			<state id="offline" />
+		</decision>
+		<cpt id="C1">
+			<state id="true" />
+			<state id="false" />
+			<probabilities>0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="A1">
+			<state id="failure" />
+			<state id="no_failure" />
+			<parents>A3 A4 A2 A5</parents>
+			<probabilities>0 1 0.4 0.6 0.1 0.9 0.4 0.6 0.1 0.9 0.5 0.5 0.2 0.8 0.6 0.4 0.3 0.7 0.8 0.2 0.45 0.55 0.9 0.1 0.4 0.6 0.9 0.1 0.6 0.4 0.95 0.05</probabilities>
+		</cpt>
+		<cpt id="B4">
+			<state id="low" />
+			<state id="high" />
+			<probabilities>0.3 0.7</probabilities>
+		</cpt>
+		<cpt id="B3">
+			<state id="low" />
+			<state id="high" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="B2">
+			<state id="local" />
+			<state id="shared" />
+			<state id="global" />
+			<probabilities>0.8 0.15 0.05</probabilities>
+		</cpt>
+		<cpt id="B1">
+			<state id="low" />
+			<state id="high" />
+			<parents>B2 B4 B3</parents>
+			<probabilities>0.9 0.1 0.5 0.5 0.3 0.7 0.25 0.75 0.75 0.25 0.55 0.45 0.5 0.5 0.25 0.75 0.7 0.3 0.4 0.6 0.4 0.6 0.1 0.9</probabilities>
+		</cpt>
+		<utility id="U1" ranked="true">
+			<parents>A1 B1 C1 D1</parents>
+			<utilities>70 -80 90 70 80 -100 80 60 95 60 95 40 80 20 90 60</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6128.0 ACADEMIC" name="Network1">
+			<node id="A5">
+				<name>reinitialization factor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>563 42 663 120</position>
+				<barchart active="true" width="267" height="72" />
+			</node>
+			<node id="A4">
+				<name>aggregated failure count</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>336 41 435 113</position>
+				<barchart active="true" width="170" height="64" />
+			</node>
+			<node id="A3">
+				<name>redundancy factor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>172 46 280 110</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A2">
+				<name>failure repetition</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>16 47 125 115</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C1">
+				<name>critical factor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>581 266 699 348</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A1">
+				<name>error rating</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>370 271 488 347</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="B4">
+				<name>dependency levels up</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1191 34 1282 113</position>
+				<barchart active="true" width="156" height="64" />
+			</node>
+			<node id="B3">
+				<name>dependency levels down</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1007 32 1108 121</position>
+				<barchart active="true" width="154" height="64" />
+			</node>
+			<node id="B2">
+				<name>dependency type</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>819 39 924 117</position>
+				<barchart active="true" width="145" height="72" />
+			</node>
+			<node id="B1">
+				<name>dependency factor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>963 270 1096 349</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="U1">
+				<name>resource state</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>602 512 775 611</position>
+				<barchart active="true" width="157" height="157" />
+			</node>
+			<node id="D1">
+				<name>current state</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>727 268 856 347</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
