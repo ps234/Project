@@ -11,7 +11,8 @@ NetBeans 8.0.2
 JDK 1.8 (64-bit)
 JavaFX Scene Builder 8.5.0
 MySql 8.0.18 community edition
-The ZIP file contains all the necessary files. The configuration file db.configuration can be used to enter the required database name and URI. There are two ways the program can be executed:
+
+The configuration file db.configuration can be used to enter the required database name and URI. There are two ways the program can be executed:
 
 The source files can be compiled and executed.
 Execute the Node.jar file.
